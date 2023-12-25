@@ -1,0 +1,14 @@
+{
+  "registeredEmailAddress": "Please register\nwith your email Address",
+  "useRegisteredEmail": "Use your registered email address",
+  "fullName": "Full Name",
+  "emailAddress": "Email Address",
+  "password": "Password",
+  "confirmPassword": "Confirm Password",
+  "phoneNumber": "Phone Number",
+  "signUp": "Sign Up",
+  "orSignUp": "Or Sign up With",
+  "alreadyRegistered": "Already registered?",
+  "login": "Login",
+  "now": "now"
+}

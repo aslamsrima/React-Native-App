@@ -1,0 +1,26 @@
+# For more information about this configuration visit
+# https://docs.fastlane.tools/actions/gym/#gymfile
+
+# In general, you can use the options available
+# fastlane gym --help
+
+# Remove the # in front of the line to enable the option
+
+workspace("MyApp.xcworkspace")
+
+scheme(ENV['FASTLANE_EXPORT_ENVIRONMENT'])
+
+configuration(ENV['FASTLANE_CONFIGURATION']) # Release, Debug
+
+clean(true)
+
+# skip_package_ipa(true)
+
+export_method(ENV['FASTLANE_EXPORT_METHOD']) # development, app-store
+
+# include_symbols(true)
+
+# include_bitcode(false)
+
+output_directory("./bundles")
+output_name(ENV['FASTLANE_EXPORT_ENVIRONMENT'])

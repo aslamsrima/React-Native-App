@@ -1,0 +1,71 @@
+{
+  "email": {
+    "require": "Email Address is required",
+    "enterValidEmail": "Please enter a valid email"
+  },
+  "password": {
+    "require": "Password is required",
+    "mustIncludeLowerCase": "Password must include lowercase letter",
+    "mustIncludeUpperCase": "Password must include uppercase letter",
+    "mustIncludeDigit": "Password must include digit",
+    "mustIncludeSpecialCharacter": "Password must include special character",
+    "notContainTwoConsecutiveCharacter": "Avoid consecutive characters",
+    "passwordLengthAtLeast": "Password must be at least 8 characters",
+    "passwordLengthMaximum": "Password must be less than 15 characters"
+  },
+  "fullName": {
+    "require": "Full name is required",
+    "minCharacterRequire": "Full name be at least 2 characters",
+    "maxCharacterRequire": "Full name be at most 50 characters",
+    "onlyContainLettersSpace": "Full name can only contain letters and spaces"
+  },
+  "phoneNumber": {
+    "require": "Phone number is required",
+    "onlyDigits": "Phone number must only contain digits",
+    "minDigitRequire": "Phone number must be at least 7 digits",
+    "maxDigitRequire": "Phone number can be at most 15 digits"
+  },
+  "confirmPassword": {
+    "require": "Confirm Password is required",
+    "mustMatch": "Passwords must match"
+  },
+  "otp": {
+    "require": "OTP is required",
+    "containOnlyDigits": "OTP must contain only digits",
+    "mustBe": "OTP must be exactly 4 characters"
+  },
+  "street": {
+    "require": "Street is required"
+  },
+  "landMark": {
+    "require": "Landmark is required"
+  },
+  "city": {
+    "require": "City is required"
+  },
+  "customHooksError": {
+    "loggedInRiderProviderError": "useLoggedInRider must be used within a LoggedInDriverProvider",
+    "selectedDetailProviderError": "useSelectedDetail must be used within a SelectedDetailProvider",
+    "scheduledRidesProviderError": "useScheduledRides must be used within a ScheduledRidesProvider"
+  },
+  "oldPassword": {
+    "require": "Old password is required",
+    "mustIncludeLowerCase": "Old password must include lowercase letter",
+    "mustIncludeUpperCase": "Old password must include uppercase letter",
+    "mustIncludeDigit": "Old password must include digit",
+    "mustIncludeSpecialCharacter": "Old password must include special character",
+    "notContainTwoConsecutiveCharacter": "Avoid consecutive characters in old password",
+    "passwordLengthAtLeast": "Old password must be at least 8 characters",
+    "passwordLengthMaximum": "Old password must be less than 15 characters"
+  },
+  "newPassword": {
+    "require": "New password is required",
+    "mustIncludeLowerCase": "New password must include lowercase letter",
+    "mustIncludeUpperCase": "New password must include uppercase letter",
+    "mustIncludeDigit": "New password must include digit",
+    "mustIncludeSpecialCharacter": "New password must include special character",
+    "notContainTwoConsecutiveCharacter": "Avoid consecutive characters in new password",
+    "passwordLengthAtLeast": "New password must be at least 8 characters",
+    "passwordLengthMaximum": "New password must be less than 15 characters"
+  }
+}

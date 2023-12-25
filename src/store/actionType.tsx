@@ -1,0 +1,2 @@
+export const UPDATE_LOADER = 'UPDATE_LOADER';
+export const CHANGE_THEME = 'CHANGE_THEME';
